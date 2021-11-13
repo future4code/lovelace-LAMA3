@@ -10,7 +10,7 @@
     "test": "clear && node ./node_modules/bin/jest/jest.js",
     "start": "tsc && node ./build/src/index.js",
     "dev": "ts-node-dev ./src/index.ts",
-    "migration": "tsnd ./src/data/migrations.ts"
+    "migration": "tsnd ./src/data/databaseConnection/migrations.ts"
   },
   "repository": {
     "type": "git",
