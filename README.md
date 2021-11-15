@@ -12,7 +12,9 @@
 
 ### O que Funciona 
 
-#### Endpoints  GET(getBandDetailsByIdOrNameController e getShowsController) ,                                                                   POST(signUpController, loginController, bandRegisterController e addShowToADayController)
+#### Endpoints  
+#### GET(getBandDetailsByIdOrNameController e getShowsController) ,                                                               
+#### POST(signUpController, loginController, bandRegisterController e addShowToADayController)
 
 ### O que não Funciona
 
