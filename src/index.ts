@@ -1,18 +1,27 @@
 import {app} from "../src/app";
-import { signUpController } from "./controller/endpoint/signUpController";
 import {AddressInfo} from "net";
-
-
+//ENDPOINTS
+import { signUpController } from "./controller/endpoint/signUpController";
+import { bandRegisterController } from "./controller/endpoint/bandRegisterController";
+import { getBandDetailsByIdOrNameController } from "./controller/endpoint/getBandDetailsByIdOrNameController";
+import { addShowToADayController } from "./controller/endpoint/addShowToADayController";
+import { getShowsController } from "./controller/endpoint/getShowsController";
 //###############
 //## Endpoints ##
 //###############
-
 app.post("/user/signup", signUpController)
+app.post("/band/register", bandRegisterController)
 
+
+
+
+
+app.post("/show/register", addShowToADayController)
+app.get("/band/:id?",getBandDetailsByIdOrNameController)
+app.get("/show/:week_day", getShowsController)
 //###############
 //## Endpoints ##
 //###############
-
 
 
 export const server = app.listen(process.env.PORT || 3003, ()=>{
