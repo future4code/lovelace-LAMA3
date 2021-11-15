@@ -26,12 +26,12 @@ CREATE TABLE IF NOT EXISTS NOME_TABELA_BANDAS (
 `)
     createTables()
     .then(() => { console.log("Tabelas Criadas") })
-    .catch(() => { console.log(printError) })
+    .catch((error) => { console.log(error.sqlMessage || error.message) })
     .finally(() => { console.log(closeConnection) })
 
-const printError = (error: any) => {
-    console.log(error.sqlMessage || error.message)
-}
+// const printError = (error: any) => {
+//     console.log(error.sqlMessage || error.message)
+// }
 
 const closeConnection = () => {
     connection.destroy()
