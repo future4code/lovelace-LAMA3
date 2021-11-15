@@ -29,7 +29,6 @@ export async function loginController(req:Request, res :Response):Promise<void> 
         res.send({token})
         
     } catch (error: any) {
-        console.log(error.message)
         
         if(res.statusCode === 200){
 

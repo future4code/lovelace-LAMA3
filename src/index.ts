@@ -21,7 +21,6 @@ app.post("/user/login", loginController)
 
 app.get("/band/:id?",getBandDetailsByIdOrNameController)
 app.get("/show/:week_day", getShowsController)
-=======
 //###############
 //## Endpoints ##
 //###############
