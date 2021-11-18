@@ -1,4 +1,27 @@
-# Labenu Music Awards
-Como você deve saber muito bem, o nosso querido chefinho Astrodev é uma pessoa com Networking incrível e ele conhece vários artistas estrelados. Além disso, ele também é um grande ~~megalomaníaco~~ visionário e está planejando fazer um grande evento: o **LAMA**, *Labenu Musical Awards*, um festival  com várias bandas famosas para a formatura da sua turma e, no final, vocês podem eleger a banda que mais gostaram! Entretanto, na opinião dele, vocês só serão merecedores se entregarem um sistema impecável que permita o gerenciamento completo desses shows.
+# Labenu Musical Awards - (API - LAMA)
 
-Para isso já deixamos algumas tabelas prontas para vocês não precisarem se preocupar com a modelagem do banco. Deixamos também um template do projeto já com a estrutura da parte de usuários. Vocês podem usá-las a vontade, mas, se quiser fazer do zero sem esse auxílio, também pode.
+### API Para facilitar o trabalho do AstroDev na hora de organizar o labenu Musical award, mais conhecido como LAMA. Nessa API será possivel se cadastrar, fazer login, cadastrar bandas, pegar seus dados e  cadastrar shows dessas bandas além de claro pegar os dados desses shows.
+
+## 
+
+### Link da Documentação 
+
+#### [LAMA API](https://documenter.getpostman.com/view/16817790/UVC9gkAk)
+
+##
+
+### O que Funciona 
+
+#### Endpoints  
+#### GET(getBandDetailsByIdOrNameController e getShowsController) ,                                                               
+#### POST(signUpController, loginController, bandRegisterController e addShowToADayController)
+
+### O que não Funciona
+
+##
+
+### Autores
+
+#### [Erlan Carvalho](https://github.com/Carvalho001) , [João Paulo Moretti](https://github.com/JoaoPauloMoretti)
+
+
